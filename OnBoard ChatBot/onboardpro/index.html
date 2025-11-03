@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Onboarding Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1 class="logo">OnboardPro</h1>
+            <ul class="nav-links">
+                <li><a href="#welcome">Welcome</a></li>
+                <li><a href="#steps">Steps</a></li>
+                <li><a href="#policies">Policies</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Your Journey</h1>
+            <p>Embark on a seamless onboarding experience with our comprehensive guide.</p>
+            <a href="#steps" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="welcome">
+        <div class="container">
+            <h2>Welcome Aboard!</h2>
+            <p>Congratulations on joining our innovative team! We're excited to have you here. This portal is designed to make your transition smooth and informative.</p>
+            <div class="welcome-stats">
+                <div class="stat">
+                    <i class="fas fa-users"></i>
+                    <h3>500+</h3>
+                    <p>Team Members</p>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-rocket"></i>
+                    <h3>10+</h3>
+                    <p>Years of Innovation</p>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-globe"></i>
+                    <h3>Global</h3>
+                    <p>Presence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="steps">
+        <div class="container">
+            <h2>Your Onboarding Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-file-signature"></i></div>
+                    <div class="timeline-content">
+                        <h3>Day 1: Paperwork & Setup</h3>
+                        <p>Complete HR paperwork, sign contracts, and set up your workstation with access credentials.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-users"></i></div>
+                    <div class="timeline-content">
+                        <h3>Week 1: Orientation</h3>
+                        <p>Attend orientation sessions to learn about our company culture and values.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <h3>Week 2-4: Training</h3>
+                        <p>Undergo comprehensive training on company policies, tools, and procedures.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-handshake"></i></div>
+                    <div class="timeline-content">
+                        <h3>Ongoing: Integration</h3>
+                        <p>Meet your team, collaborate on projects, and continue learning and growing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="policies">
+        <div class="container">
+            <h2>Key Policies & Guidelines</h2>
+            <div class="policies-grid">
+                <div class="policy-card">
+                    <i class="fas fa-gavel"></i>
+                    <h3>Code of Conduct</h3>
+                    <p>Our standards for professional behavior and ethical practices.</p>
+                </div>
+                <div class="policy-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>IT Security</h3>
+                    <p>Protecting company data and maintaining secure systems.</p>
+                </div>
+                <div class="policy-card">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Work-Life Balance</h3>
+                    <p>Flexible hours, remote work options, and wellness programs.</p>
+                </div>
+                <div class="policy-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Benefits</h3>
+                    <p>Comprehensive health insurance, retirement plans, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources">
+        <div class="container">
+            <h2>Essential Resources</h2>
+            <p>Access helpful documents, tools, and information to support your onboarding journey.</p>
+            <div class="resources-grid">
+                <a href="#" class="resource-link">
+                    <i class="fas fa-book"></i>
+                    <span>Employee Handbook</span>
+                </a>
+                <a href="#" class="resource-link">
+                    <i class="fas fa-video"></i>
+                    <span>Training Modules</span>
+                </a>
+                <a href="#" class="resource-link">
+                    <i class="fas fa-address-book"></i>
+                    <span>Company Directory</span>
+                </a>
+                <a href="#" class="resource-link">
+                    <i class="fas fa-question-circle"></i>
+                    <span>FAQ</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 OnboardPro. All rights reserved.</p>
+            <p>Need help? Contact HR at hr@company.com</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div id="chatbot">
+        <div id="chatbot-header">
+            <i class="fas fa-robot"></i> Onboarding Assistant
+            <button id="chatbot-close">&times;</button>
+        </div>
+        <div id="chatbot-messages"></div>
+        <div id="chatbot-input-area">
+            <input type="text" id="chatbot-input" placeholder="Ask me about onboarding...">
+            <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <button id="chatbot-toggle">
+        <i class="fas fa-comments"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
